@@ -1,0 +1,129 @@
+It's my homework!
+
+:)
+
+
+/home/nastyaleksa
+├── Anaconda3-2024.10-1-Windows-x86_64.exe
+├── Bioinformatics_2025
+│   ├── hw
+│   │   └── hw_1
+│   ├── renamed
+│   ├── seminar_1
+│   │   └── test.txt
+│   └── test.py
+├── build
+├── gnina
+├── homework
+│   ├── Bioinformatics_2025_repository
+│   │   ├── Bioinformatics_2025_repository
+│   │   │   ├── hw
+│   │   │   │   └── hw_1
+│   │   │   └── hw_file_1.txt
+│   │   └── hw_file_1.txt
+│   └── hw_file_1.txt
+└── архив.gz
+
+11 directories, 8 files
+  270  cd
+  271  ssh-keygen
+  272  cat ~/.ssh/id_rsa.pub
+  273  ды
+  274  ls
+  275  cd Bioinformatics_2025
+  276  mkdir -p hw/hw_1
+  277  ls
+  278  cd hw
+  279  ls hw
+  280  cd hw_1
+  281  ls
+  282  cd home
+  283  ls
+  284  touch my_hw_file.txt
+  285  ls
+  286  vim my_hw_file.txt
+  287  cat -n my_hw_file.txt
+  288  cp my_hw_file.txt hw_file_1.txt
+  289  ls
+  290  ls
+  291  cp hw_file_1.txt ~/homework/
+  292  cp hw_file_1.txt ~/homework
+  293  ls
+  294  cd home
+  295  cd ~
+  296  cp hw_file_1.txt ~/homework/
+  297  mkdir homework
+  298  ls
+  299  cp hw_file_1.txt ~/Bioinformatics_2025/hw/hw_1 ~/homework
+  300  rm homework
+  301  ls
+  302  mkdir homework
+  303  ls
+  304  cp hw_file_1.txt ~/Bioinformatics_2025/hw/hw_1 ~/homework
+  305  cp ~/Bioinformatics_2025/hw/hw_1/hw_file_1.txt ~/homework
+  306  ls
+  307  cd homework
+  308  ls 
+  309  cd hw_1
+  310  cd ~/Bioinformatics_2025/hw/hw_1
+  311  ls
+  312  rm hw_file_1.txt
+  313  ls
+  314  sudo apt-get install tree
+  315  cd ~
+  316  tree ~
+  317  sudo apt install tree
+  318  sudo passwd nastyaleksa
+  319  sudo apt install tree
+  320  passwd
+  321  sudo passwd --delete nastyaleksa
+  322  sudo apt install tree
+  323  tree ~
+  324  vim hw_file_1.txt
+  325  ls
+  326  cd homework
+  327  ls
+  328  vim hw_file_1.txt
+  329  tree ~ >> hw_file_1.txt
+  330  cat -n 5 hw_file_1.txt
+  331  vim hw_file_1.txt
+  332  git --version
+  333  git clone https://github.com/nastyaleksa04/Bioinformatics_2025.git
+  334  cp ~/homework/hw_file_1.txt https://github.com/nastyaleksa04/Bioinformatics_2025.git
+  335  cd Bioinformatics_2025
+  336  git clone https://github.com/nastyaleksa04/Bioinformatics_2025_repository.git
+  337  ls
+  338  rm Bioinformatics_2025_repository
+  339  rm -r Bioinformatics_2025_repository
+  340  l
+  341  ls
+  342  cd homework
+  343  cd ~/homework
+  344  cd ~
+  345  cd ~/homework
+  346  ls
+  347  rm -r Bioinformatics_2025
+  348  ls
+  349  git clone https://github.com/nastyaleksa04/Bioinformatics_2025_repository.git
+  350  cd Bioinformatics_2025_repository'
+  351  cp ~/homework/hw_file_1.txt ~/homework/Bioinformatics_2025_repository
+  352  cp
+  353  ls
+  354  cd ~/homework
+  355  cd ~/homework/Bioinformatics_2025_repository
+  356  ls
+  357  git add hw_file_1.txt
+  358  git clone https://github.com/nastyaleksa04/Bioinformatics_2025_repository.git
+  359  cp ~/homework/hw_file_1.txt ~/homework/Bioinformatics_2025_repository
+  360  ls
+  361  cp ~/homework/hw_file_1.txt ~/homework/Bioinformatics_2025_repository/Bioinformatics_2025_repository
+  362  ls
+  363  cd ~/homework/Bioinformatics_2025_repository/Bioinformatics_2025_repository
+  364  ls
+  365  git add hw_file_1.txt
+  366  git commit -m "Добавлено 1 дз по биоинформатике"
+  367  git status
+  368  git commit --amend --reset-author
+  369  git status
+
+ 
