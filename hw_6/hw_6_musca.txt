@@ -1,0 +1,48 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.4 (Aug 2023); http://hmmer.org/
+# Copyright (C) 2023 Howard Hughes Medical Institute.
+# Freely distributed under the BSD open source license.
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  PF09247.hmm
+# target sequence database:        /home/aalexandrova/fly/ncbi_dataset/data/GCF_030504385.1/protein.faa
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       TBP-binding  [M=60]
+Accession:   PF09247.16
+Description: TATA box-binding protein binding
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+    4.9e-19   69.0   5.2    1.7e-18   67.2   5.2    2.0  1  XP_005186024.1  transcription initiation factor TFIID subunit
+
+
+Domain annotation for each sequence (and alignments):
+>> XP_005186024.1  transcription initiation factor TFIID subunit 1 [Musca domestica]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   67.2   5.2   6.1e-23   1.7e-18       2      60 .]      20      82 ..      19      82 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 67.2 bits;  conditional E-value: 6.1e-23
+     TBP-binding  2 sdsegekggldLtGfLFGNidesGqLeddi....LDeeskkqLssLskLGLgsllseviddee 60
+                    s+ +g+  g+dLtG+LFGNid++G+L d+     +D e+k++L+sLskLGL+s+lsevi+ e+
+  XP_005186024.1 20 SNHDGGGFGIDLTGILFGNIDSEGKLVDEDgagaFDSEFKEHLGSLSKLGLNSMLSEVIEAED 82
+                    56677779******************98866899*************************9876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (60 nodes)
+Target sequences:                      28176  (19640504 residues searched)
+Passed MSV filter:                       692  (0.0245599); expected 563.5 (0.02)
+Passed bias filter:                      455  (0.0161485); expected 563.5 (0.02)
+Passed Vit filter:                        27  (0.000958262); expected 28.2 (0.001)
+Passed Fwd filter:                         1  (3.54912e-05); expected 0.3 (1e-05)
+Initial search space (Z):              28176  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.19u 0.03s 00:00:00.22 Elapsed: 00:00:00.13
+# Mc/sec: 8734.09
+//
+[ok]
